@@ -1,0 +1,138 @@
+html{
+    background-image:url(../img/fon2.jpg);
+  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* -moz-background-size: contain; */
+    
+    
+       
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    /* background-color: #ecf5f5; */
+    /* background-image: linear-gradient(100deg, #0e0d0d, #eee5da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #e4e3e0; */
+    
+
+}
+ 
+h1, h2 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+
+.wrapper{
+    max-width: 900px; 
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 30px solid rgba(54, 42, 21, 0.322); 
+    padding: 50px 60px ;
+    margin: 30px auto;
+    
+}
+
+
+
+
+ p{
+    text-align: justify;
+    text-indent: 25px; 
+    margin: 10px;
+    margin-bottom: 10px;
+   
+}
+.ring:hover{
+    background-color: rgba(54, 42, 21, 0.322);
+}
+ 
+.img {
+    height: 35vh;
+    width: 100%;
+    background-color: rgba(54, 42, 21, 0.322);
+   
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    image-rendering:optimizeQuality
+} 
+
+
+.img2 {
+    float: right;
+    margin: 25px  0px 25px 25px;
+    min-height: 35vh;
+    width: 45%;
+    background-color: rgba(54, 42, 21, 0.322);
+    background-image: url(../img/geoden.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /* background-position: center; */
+    image-rendering:optimizeQuality
+} 
+  
+ .img1 {
+    float: left;
+    margin: 25px  25px 25px 0px;
+    height: 35vh;
+    width: 45%;
+    background-color: rgba(54, 42, 21, 0.322);
+    background-image: url(../img/aragon.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: auto 100%;
+    /* background-position: center; */
+    image-rendering:optimizeQuality
+}  
+
+
+a{
+    text-decoration-color:rgba(54, 42, 21, 0.322);
+     
+}
+.textList li{
+    list-style-position: inside;
+    text-indent: 50px;
+    transition: all .3s;
+}
+
+.textList li:hover{
+    text-indent: 30px;
+
+}
+
+.boton {
+    text-align: center;
+    text-decoration: none;
+    border: 6px solid rgba(54, 42, 21, 0.322);
+    border-radius: 0 20px 0 20px;
+    text-indent: 0;
+    display: inline-block;
+    /* height: 101px;
+    line-height: 101px; */
+    
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+
+    } 
+    
+.boton:hover{
+
+    text-decoration: none;
+    /* text-shadow: -11px 11px 3px rgba(126, 67, 221, 0.863); */
+    border-radius: 15px 0 15px 0;
+
+
+}
